@@ -2,4 +2,5 @@
 
 name1=sreenu
 name2=viswa
-echo "The names of Gangsters are:$name1 and $name2"
+info=$(($name1 & $name2))
+echo "The names of Gangsters are:$info"
